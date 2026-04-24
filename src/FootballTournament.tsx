@@ -155,27 +155,74 @@ export default function FootballTournament() {
   }
 
   function genKnockout() {
-    const firsts: string[] = [],
-      seconds: string[] = [];
+    const top2ByGroup: Record<string, { first?: string; second?: string }> = {};
     for (const g of groups) {
       const s = computeStandings(g);
-      if (s[0]) firsts.push(s[0].teamId);
-      if (s[1]) seconds.push(s[1].teamId);
+      top2ByGroup[g] = { first: s[0]?.teamId, second: s[1]?.teamId };
     }
+
+    const firsts: string[] = [];
+    const seconds: string[] = [];
+    for (const g of groups) {
+      const x = top2ByGroup[g];
+      if (x?.first) firsts.push(x.first);
+      if (x?.second) seconds.push(x.second);
+    }
+
     const n = Math.min(firsts.length, seconds.length);
     const km: KnockoutMatch[] = [];
-    for (let i = 0; i < n; i++) {
-      km.push({
-        id: `ko_r1_${i}`,
-        round: 'r1',
-        slot: i,
-        team1Id: firsts[i],
-        team2Id: seconds[n - 1 - i],
-        score1: null,
-        score2: null,
-        winnerId: null,
-      });
+
+    const hasABCD =
+      groups.includes('A') &&
+      groups.includes('B') &&
+      groups.includes('C') &&
+      groups.includes('D') &&
+      top2ByGroup.A?.first &&
+      top2ByGroup.A?.second &&
+      top2ByGroup.B?.first &&
+      top2ByGroup.B?.second &&
+      top2ByGroup.C?.first &&
+      top2ByGroup.C?.second &&
+      top2ByGroup.D?.first &&
+      top2ByGroup.D?.second;
+
+    if (hasABCD) {
+      // 半区 1：A1 vs B2，C1 vs D2
+      // 半区 2：A2 vs B1，C2 vs D1
+      const pairings: Array<[string, string]> = [
+        [top2ByGroup.A.first!, top2ByGroup.B.second!],
+        [top2ByGroup.C.first!, top2ByGroup.D.second!],
+        [top2ByGroup.A.second!, top2ByGroup.B.first!],
+        [top2ByGroup.C.second!, top2ByGroup.D.first!],
+      ];
+      for (let i = 0; i < pairings.length; i++) {
+        const [team1Id, team2Id] = pairings[i];
+        km.push({
+          id: `ko_r1_${i}`,
+          round: 'r1',
+          slot: i,
+          team1Id,
+          team2Id,
+          score1: null,
+          score2: null,
+          winnerId: null,
+        });
+      }
+    } else {
+      for (let i = 0; i < n; i++) {
+        km.push({
+          id: `ko_r1_${i}`,
+          round: 'r1',
+          slot: i,
+          team1Id: firsts[i],
+          team2Id: seconds[n - 1 - i],
+          score1: null,
+          score2: null,
+          winnerId: null,
+        });
+      }
     }
+
     let sz = Math.floor(n / 2),
       r = 2;
     while (sz >= 1) {
