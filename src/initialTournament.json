@@ -1,0 +1,435 @@
+{
+  "tab": "setup",
+  "tournName": "风扇杯 onlyfans cup",
+  "newName": "",
+  "newGroup": "A",
+  "gEditId": null,
+  "kEditId": null,
+  "es1": "",
+  "es2": "",
+  "teams": [
+    {
+      "id": "tA1",
+      "name": "刚刚",
+      "group": "A"
+    },
+    {
+      "id": "tA2",
+      "name": "博卡",
+      "group": "A"
+    },
+    {
+      "id": "tA3",
+      "name": "cj",
+      "group": "A"
+    },
+    {
+      "id": "tA4",
+      "name": "dolm",
+      "group": "A"
+    },
+    {
+      "id": "tA5",
+      "name": "老郭",
+      "group": "A"
+    },
+    {
+      "id": "tB1",
+      "name": "凯大",
+      "group": "B"
+    },
+    {
+      "id": "tB2",
+      "name": "白白",
+      "group": "B"
+    },
+    {
+      "id": "tB3",
+      "name": "大cc",
+      "group": "B"
+    },
+    {
+      "id": "tB4",
+      "name": "蚊子",
+      "group": "B"
+    },
+    {
+      "id": "tB5",
+      "name": "陈曦",
+      "group": "B"
+    },
+    {
+      "id": "tC1",
+      "name": "拉车",
+      "group": "C"
+    },
+    {
+      "id": "tC2",
+      "name": "拉芬",
+      "group": "C"
+    },
+    {
+      "id": "tC3",
+      "name": "小郭",
+      "group": "C"
+    },
+    {
+      "id": "tC4",
+      "name": "肥肥",
+      "group": "C"
+    },
+    {
+      "id": "tC5",
+      "name": "喜爱",
+      "group": "C"
+    },
+    {
+      "id": "tD1",
+      "name": "jj",
+      "group": "D"
+    },
+    {
+      "id": "tD2",
+      "name": "波少",
+      "group": "D"
+    },
+    {
+      "id": "tD3",
+      "name": "黄晓君",
+      "group": "D"
+    },
+    {
+      "id": "tD4",
+      "name": "王琦",
+      "group": "D"
+    },
+    {
+      "id": "tD5",
+      "name": "联通",
+      "group": "D"
+    }
+  ],
+  "gMatches": [
+    {
+      "id": "gmA01",
+      "group": "A",
+      "homeId": "tA1",
+      "awayId": "tA2",
+      "homeScore": 4,
+      "awayScore": 3
+    },
+    {
+      "id": "gmA02",
+      "group": "A",
+      "homeId": "tA1",
+      "awayId": "tA3",
+      "homeScore": 2,
+      "awayScore": 2
+    },
+    {
+      "id": "gmA03",
+      "group": "A",
+      "homeId": "tA1",
+      "awayId": "tA4",
+      "homeScore": 0,
+      "awayScore": 0
+    },
+    {
+      "id": "gmA04",
+      "group": "A",
+      "homeId": "tA1",
+      "awayId": "tA5",
+      "homeScore": 2,
+      "awayScore": 1
+    },
+    {
+      "id": "gmA05",
+      "group": "A",
+      "homeId": "tA2",
+      "awayId": "tA3",
+      "homeScore": 0,
+      "awayScore": 1
+    },
+    {
+      "id": "gmA06",
+      "group": "A",
+      "homeId": "tA2",
+      "awayId": "tA4",
+      "homeScore": 0,
+      "awayScore": 6
+    },
+    {
+      "id": "gmA07",
+      "group": "A",
+      "homeId": "tA2",
+      "awayId": "tA5",
+      "homeScore": 2,
+      "awayScore": 6
+    },
+    {
+      "id": "gmA08",
+      "group": "A",
+      "homeId": "tA3",
+      "awayId": "tA4",
+      "homeScore": 1,
+      "awayScore": 1
+    },
+    {
+      "id": "gmA09",
+      "group": "A",
+      "homeId": "tA3",
+      "awayId": "tA5",
+      "homeScore": 3,
+      "awayScore": 1
+    },
+    {
+      "id": "gmA10",
+      "group": "A",
+      "homeId": "tA4",
+      "awayId": "tA5",
+      "homeScore": 2,
+      "awayScore": 4
+    },
+    {
+      "id": "gmB01",
+      "group": "B",
+      "homeId": "tB1",
+      "awayId": "tB2",
+      "homeScore": 5,
+      "awayScore": 1
+    },
+    {
+      "id": "gmB02",
+      "group": "B",
+      "homeId": "tB1",
+      "awayId": "tB3",
+      "homeScore": 3,
+      "awayScore": 4
+    },
+    {
+      "id": "gmB03",
+      "group": "B",
+      "homeId": "tB1",
+      "awayId": "tB4",
+      "homeScore": 0,
+      "awayScore": 2
+    },
+    {
+      "id": "gmB04",
+      "group": "B",
+      "homeId": "tB1",
+      "awayId": "tB5",
+      "homeScore": 0,
+      "awayScore": 3
+    },
+    {
+      "id": "gmB05",
+      "group": "B",
+      "homeId": "tB2",
+      "awayId": "tB3",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": "gmB06",
+      "group": "B",
+      "homeId": "tB2",
+      "awayId": "tB4",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": "gmB07",
+      "group": "B",
+      "homeId": "tB2",
+      "awayId": "tB5",
+      "homeScore": 1,
+      "awayScore": 1
+    },
+    {
+      "id": "gmB08",
+      "group": "B",
+      "homeId": "tB3",
+      "awayId": "tB4",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": "gmB09",
+      "group": "B",
+      "homeId": "tB3",
+      "awayId": "tB5",
+      "homeScore": 2,
+      "awayScore": 2
+    },
+    {
+      "id": "gmB10",
+      "group": "B",
+      "homeId": "tB4",
+      "awayId": "tB5",
+      "homeScore": 0,
+      "awayScore": 3
+    },
+    {
+      "id": "gmC01",
+      "group": "C",
+      "homeId": "tC1",
+      "awayId": "tC2",
+      "homeScore": 1,
+      "awayScore": 1
+    },
+    {
+      "id": "gmC02",
+      "group": "C",
+      "homeId": "tC1",
+      "awayId": "tC3",
+      "homeScore": 3,
+      "awayScore": 1
+    },
+    {
+      "id": "gmC03",
+      "group": "C",
+      "homeId": "tC1",
+      "awayId": "tC4",
+      "homeScore": 1,
+      "awayScore": 0
+    },
+    {
+      "id": "gmC04",
+      "group": "C",
+      "homeId": "tC1",
+      "awayId": "tC5",
+      "homeScore": 1,
+      "awayScore": 0
+    },
+    {
+      "id": "gmC05",
+      "group": "C",
+      "homeId": "tC2",
+      "awayId": "tC3",
+      "homeScore": 0,
+      "awayScore": 2
+    },
+    {
+      "id": "gmC06",
+      "group": "C",
+      "homeId": "tC2",
+      "awayId": "tC4",
+      "homeScore": 4,
+      "awayScore": 2
+    },
+    {
+      "id": "gmC07",
+      "group": "C",
+      "homeId": "tC2",
+      "awayId": "tC5",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": "gmC08",
+      "group": "C",
+      "homeId": "tC3",
+      "awayId": "tC4",
+      "homeScore": 0,
+      "awayScore": 0
+    },
+    {
+      "id": "gmC09",
+      "group": "C",
+      "homeId": "tC3",
+      "awayId": "tC5",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": "gmC10",
+      "group": "C",
+      "homeId": "tC4",
+      "awayId": "tC5",
+      "homeScore": 3,
+      "awayScore": 1
+    },
+    {
+      "id": "gmD01",
+      "group": "D",
+      "homeId": "tD1",
+      "awayId": "tD2",
+      "homeScore": 0,
+      "awayScore": 5
+    },
+    {
+      "id": "gmD02",
+      "group": "D",
+      "homeId": "tD1",
+      "awayId": "tD3",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": "gmD03",
+      "group": "D",
+      "homeId": "tD1",
+      "awayId": "tD4",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": "gmD04",
+      "group": "D",
+      "homeId": "tD1",
+      "awayId": "tD5",
+      "homeScore": 1,
+      "awayScore": 2
+    },
+    {
+      "id": "gmD05",
+      "group": "D",
+      "homeId": "tD2",
+      "awayId": "tD3",
+      "homeScore": 3,
+      "awayScore": 1
+    },
+    {
+      "id": "gmD06",
+      "group": "D",
+      "homeId": "tD2",
+      "awayId": "tD4",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": "gmD07",
+      "group": "D",
+      "homeId": "tD2",
+      "awayId": "tD5",
+      "homeScore": 0,
+      "awayScore": 1
+    },
+    {
+      "id": "gmD08",
+      "group": "D",
+      "homeId": "tD3",
+      "awayId": "tD4",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": "gmD09",
+      "group": "D",
+      "homeId": "tD3",
+      "awayId": "tD5",
+      "homeScore": 0,
+      "awayScore": 1
+    },
+    {
+      "id": "gmD10",
+      "group": "D",
+      "homeId": "tD4",
+      "awayId": "tD5",
+      "homeScore": null,
+      "awayScore": null
+    }
+  ],
+  "koMatches": []
+}
